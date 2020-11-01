@@ -51,11 +51,17 @@ def anime(z):
 
 #### LOGO ####
 logo = """
-\x1b[31;1m   ____           _
-\x1b[31;1m  |  _ \ __ _ ___| |__   __ _
-\x1b[31;1m  | |_) / _` / __| '_ \ / _` |
-\x1b[31;1m  |  _ < (_| \__ \ | | | (_| |
-\x1b[31;1m  |_| \_\__,_|___/_| |_|\__,_|
+\x1b[31;1m   
+░██████╗░█████╗░██╗░░░██╗░█████╗░░██████╗░███████╗
+██╔════╝██╔══██╗██║░░░██║██╔══██╗██╔════╝░██╔════╝
+╚█████╗░███████║╚██╗░██╔╝███████║██║░░██╗░█████╗░░
+░╚═══██╗██╔══██║░╚████╔╝░██╔══██║██║░░╚██╗██╔══╝░░
+██████╔╝██║░░██║░░╚██╔╝░░██║░░██║╚██████╔╝███████╗
+╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚══════╝
+\x1b[31;1m  
+\x1b[31;1m  
+\x1b[31;1m  
+\x1b[31;1m  
 
 """
 def tik():
@@ -76,18 +82,24 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
-\x1b[31;1m@              Rasha Wa7sh               @
+\x1b[31;1m@              DARIN MUSTFA              @
 \x1b[31;1m@              Version: 1                @                
 \x1b[31;1m@              FB Grabber                @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """
 
 RH = """
-\x1b[31;1m   ____           _
-\x1b[37;1m  |  _ \ __ _ ___| |__   __ _
-\x1b[31;1m  | |_) / _` / __| '_ \ / _` |
-\x1b[37;1m  |  _ < (_| \__ \ | | | (_| |
-\x1b[31;1m  |_| \_\__,_|___/_| |_|\__,_|
+\x1b[31;1m   
+░██████╗░█████╗░██╗░░░██╗░█████╗░░██████╗░███████╗
+██╔════╝██╔══██╗██║░░░██║██╔══██╗██╔════╝░██╔════╝
+╚█████╗░███████║╚██╗░██╔╝███████║██║░░██╗░█████╗░░
+░╚═══██╗██╔══██║░╚████╔╝░██╔══██║██║░░╚██╗██╔══╝░░
+██████╔╝██║░░██║░░╚██╔╝░░██║░░██║╚██████╔╝███████╗
+╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚══════╝
+\x1b[37;1m
+\x1b[31;1m  
+\x1b[37;1m 
+\x1b[31;1m  
 """
 print(RH)
 CorrectUsername = "rasha"
@@ -248,14 +260,14 @@ def graber():
 	startgrab()
 
 def startgrab():
-	peak = raw_input("Rasha+Wa7sh>> ")
+	peak = raw_input("destroyer+destroyer>> ")
 	if peak=="":
 		print "\x1b[1;91mTkaya Ba Batale Je Mahela"
 		startgrab()
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "@@@@@@@@@@@#Rasha÷Wa7sh#@@@@@@@@@@@"
+		print "@@@@@@@@@@@#darin÷destroyer#@@@@@@@@@@@"
 		anime('\033[1;91mDarhenani ID Kan \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -265,7 +277,7 @@ def startgrab():
 		os.system('clear')
 		print logo
 		idt = raw_input("[♤]ID Kasaka Bnwsa>>>")
-		print "@@@@@@@@@@@#Rasha÷wa7sh#@@@@@@@@@@@"
+		print "@@@@@@@@@@@#darin÷destroyer#@@@@@@@@@@@"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
